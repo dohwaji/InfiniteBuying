@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<navigation xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/mobile_navigation"
+    app:startDestination="@+id/navigation_buy">
+
+    <fragment
+        android:id="@+id/navigation_buy"
+        android:name="com.dohwaji.infinitebuying.view.buy.BuyFragment"
+        android:label="@string/title_buy"
+        tools:layout="@layout/fragment_buy" />
+
+    <fragment
+        android:id="@+id/navigation_done"
+        android:name="com.dohwaji.infinitebuying.view.done.DoneFragment"
+        android:label="@string/title_done"
+        tools:layout="@layout/fragment_done" />
+
+    <fragment
+        android:id="@+id/navigation_statistics"
+        android:name="com.dohwaji.infinitebuying.view.statistics.StatisticsFragment"
+        android:label="@string/title_statistics"
+        tools:layout="@layout/fragment_statistics" />
+</navigation>

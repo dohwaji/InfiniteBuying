@@ -1,0 +1,7 @@
+<resources>
+    <string name="app_name">Infinite Buying</string>
+    <string name="title_buy">Buy</string>
+    <string name="title_done">Done</string>
+    <string name="title_statistics">Statistics</string>
+    <string name="average_price">Average price : </string>
+</resources>
